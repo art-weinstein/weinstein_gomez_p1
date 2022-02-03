@@ -14,12 +14,5 @@ public interface ProfileService {
     public Profile updateProfile(Profile change);
     public Profile deleteProfile(int id) throws ResourceNotFoundException;
 
-    //But you are also likely to have more Complex operations such as a need to filter, sort, or validate
-    //information received from your Repositories.
-
-//    public List<Movie> getMoviesAbovePrice(double price);
-//    public List<Profile> getAvailableMovies();
-//    public Profile checkout(Profile m);
-//    public boolean checkin(Profile m);
 
 }
