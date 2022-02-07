@@ -17,7 +17,6 @@ public class ProfileServiceImpl implements ProfileService {
         this.pr = pr;
     }
 
-    //Our Trivial Services
     @Override
     public Profile addProfile(Profile p) {
         return pr.addProfile(p);
@@ -44,9 +43,5 @@ public class ProfileServiceImpl implements ProfileService {
     }
 
 
-//    @Override
-//    public List<Profile> getAvailableProfiles() {
-//        return null;
-//    }
 
 }
